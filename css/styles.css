@@ -81,3 +81,51 @@ body{
     text-align: right;
     padding-right: 15px;
 }
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+    border: 1px solid #ff0000;
+}
+
+.navbar-header button.navbar-toggle{
+    clear: both;
+}
+
+/************ Large Devices ************/
+@media (min-width: 1200px) {
+    
+}
+
+/************ Medium Devices ************/
+@media (min-width: 992px) and (max-width: 1199px) {
+    
+    /* Logo Image */
+    #logo-img{
+        background: url("../assets/imgs/logo.jpg") no-repeat;
+        background-size: 150px;
+        width: 100px;
+        height: 100px;
+        margin: 5px 5px 5px 0;
+    }
+}
+
+/************ Small Devices ************/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/************ Extra Small Devices ************/
+@media (max-width: 767px) {
+
+    .navbar-brand{
+        padding-top: 10px;
+        height: 80px;
+    }
+    .navbar-brand h1{
+        padding-top: 10px;
+        font-size: 5vw;
+    }
+    .navbar-brand p{
+        font-size: .6em;
+        margin-top: 12px;
+    }
+}
