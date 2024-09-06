@@ -1,0 +1,69 @@
+
+/* ID Selector: this is unique and can be ONLY USED ONCE in the entire HTML */
+#main{
+    color:purple;
+}
+
+/* Class Selector: this can be applied to multiple elements... in UE5 Gameplay tags, its like Movement (isnt accurate) */
+.green-text{
+    color: green;
+}
+
+/* This is an element selector: selects all the elements in the page of this type */
+h1{
+    color: #002c00;
+}
+
+/* the [attrib] is like gameplay tags in UE5.... its like Movement -> Walk (accurate) */
+h1[light="false"]{
+    color: greenyellow;
+}
+h1[light="1"]{
+    color: blue;
+}
+h1[light="true"]{
+    color: green;
+}
+
+/* Global and is applied to everyone */
+*{
+    background-color: #c3c3c3;
+}
+
+/* ===================== COMBINING THESE SELECTORS ================================ */
+
+/* GROUP Selectors:
+
+    multiple class, id, or element can be set to use the same style
+    separate by: ','
+
+*/
+.t1, .t2{
+    color:mediumvioletred;
+}
+
+/* DIRECT CHILD Selector
+    only selects the direct child of the parent element
+    separated by: '>'
+    to remember: '>' tu mera beta hai, tereko hi padenge
+*/
+.box > .done{
+    color:firebrick;
+}
+
+
+/*  DESCENDANT Selector 
+    Any child with the element/class/id will apply the style
+    separated by ' ' (a space)
+    to remember: khula saand hai... jaha dikhe wahi badal daal
+*/
+
+.box .done{
+    color:firebrick;
+}
+
+/* CHAINING Selector
+    apply the style ONLY if the element has all the selectors in it
+    separate by: None (means: no gap between them)
+    to remember: hum saath saath hai... ek bhi nikla toh hum kaam nahi karenge
+*/
