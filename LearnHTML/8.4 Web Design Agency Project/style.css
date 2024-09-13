@@ -19,3 +19,51 @@ footer {
   color: midnightblue;
 }
 
+
+/* My solution */
+
+.creative{
+  color: midnightblue;
+}
+
+.left{
+  float: left;
+}
+.right{
+  float: right;
+}
+
+.card{
+  width: 45%;
+}
+
+.tile-image{
+  height: 200px;
+  margin-right: 50px;
+  float: left;
+}
+
+@media (max-width: 680px) {
+  
+  .logo{
+    width: 100px;
+  }
+  
+  h1 {
+    font-size: 3.5rem;
+    text-align: center;
+  }
+  
+  .card{
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    text-align: justify;
+  }
+  .card img {
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 10px;
+    display: inline;
+  }
+}

@@ -1,0 +1,51 @@
+
+body{
+    text-align: center;
+    background-color: #FFEAC5;
+    padding: 50px;
+}
+
+/* For the Profile Content */
+.profile{
+    margin-bottom: 100px;
+}
+
+.profile-pic{
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    
+    border: 5px solid #603F26;
+    border-radius: 50%;
+}
+#name-title{
+    font-family: "Sacramento", serif;
+    font-size: 4.625rem;
+}
+#occupation-title{
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.5rem;
+}
+
+/* Generic Body Layout */
+.nav-fill{
+    background-color: #603F26;
+}
+.nav-link{
+    color: #FFDBB5;
+}
+
+section{
+    background-color: #603F26;
+    margin-bottom: 1px;
+    padding: 50px;
+    color: #FFDBB5;
+}
+
+section>.section-title{
+    font-family: "Roboto", sans-serif;
+    font-size: 2rem;
+    text-decoration: 2px underline #FFDBB5;
+    text-align: left;
+    text-underline-offset: 15px;
+}
