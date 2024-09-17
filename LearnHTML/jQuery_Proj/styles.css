@@ -1,0 +1,19 @@
+
+.body-style{
+    background-color: #2E073F;
+    color: #EBD3F8;
+
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.9rem;
+}
+
+.body-h1{
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.margin-20{
+    margin: 20px;
+}
