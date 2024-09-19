@@ -1,11 +1,5 @@
-
-
-function randomNum(){
-    return Math.floor(Math.random()*6) + 1;
-}
-function makeImgPath(num){
-    return `images/dice${num}.png`;
-}
+function randomNum(){ return Math.floor(Math.random()*6) + 1; }
+function makeImgPath(num){ return `images/dice${num}.png`; }
 
 function decision(num1, num2){
     if(num1 === num2){
